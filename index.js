@@ -1,9 +1,17 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  if (word === word.split("").reverse().join("")){
+    return true
+  }
+  else return false
 }
 
 /* 
   Add your pseudocode here
+  write a function that takes one argument (a string).
+  returns either "true" or "false".
+  if the string reads the same forwards and backwards, return true.
+  if the string does not read the same forwards and backwards, return false.
 */
 
 /*
